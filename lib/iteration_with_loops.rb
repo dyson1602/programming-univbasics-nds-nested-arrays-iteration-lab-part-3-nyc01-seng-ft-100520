@@ -13,10 +13,12 @@ def join_nested_strings(src)
         single_array << src[row_index][element_index]
       end
       
-      row_index += 1
+      element_index += 1
+      
     end
-   
-    element_index += 1
+    
+    row_index += 1
+    
   end
   
   single_array.join(" ")
