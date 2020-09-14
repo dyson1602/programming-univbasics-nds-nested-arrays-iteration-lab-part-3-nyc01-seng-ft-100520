@@ -20,5 +20,4 @@ def join_nested_strings(src)
   end
   
   single_array.join(" ")
-  single_array
 end
