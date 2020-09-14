@@ -1,7 +1,7 @@
 def join_nested_strings(src)
   
   row_index = 0
-  single_array = ""
+  single_array = []
   
   while row_index < src.count do
     
